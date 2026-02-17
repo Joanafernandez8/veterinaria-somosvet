@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Veterinaria Somosvet - Cuidado integral para tu mejor amigo. Atención 24 hs, consultas, urgencias, vacunación y más en Avellaneda, Buenos Aires.">
+    <meta name="keywords" content="veterinaria, veterinario, Avellaneda, Buenos Aires, mascotas, perros, gatos, consulta, urgencias">
+    <meta name="author" content="Veterinaria Somosvet">
+    <title>Veterinaria Somosvet | Cuidado Integral para tu Mascota</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- STICKY HEADER -->
+    <header class="sticky-header">
+        <div class="header-container">
+            <div class="logo">
+                <img src="images/logo.jpg" alt="Veterinaria Somosvet logo" class="logo-img" loading="lazy">
+                <h1>Veterinaria Somosvet</h1>
+            </div>
+            <nav class="nav-menu">
+                <a href="#sobre-nosotros">Sobre nosotros</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#testimonios">Testimonios</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+            <div class="header-cta">
+                <a href="tel:+541123456789" class="phone-btn" title="Llamar">
+                    <span class="phone-icon">📞</span>
+                    <span class="phone-text">+54 11 2345-6789</span>
+                </a>
+                <a href="https://wa.me/541123456789" target="_blank" class="whatsapp-btn" title="WhatsApp">
+                    <span class="whatsapp-icon">💬</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2 class="hero-headline">Cuidado integral para tu mejor amigo</h2>
+            <p class="hero-subheadline">Atención veterinaria profesional</p>
+            <div class="hero-cta-buttons">
+                <button class="btn btn-primary" onclick="scrollToAppointment()">Agendar turno</button>
+                <a href="https://wa.me/541123456789" target="_blank" class="btn btn-secondary">
+                    💬 WhatsApp
+                </a>
+            </div>
+        </div>
+        <!-- hero background image set via CSS to keep content on top -->
+    </section>
+
+    <!-- ABOUT US SECTION -->
+    <section class="about" id="sobre-nosotros">
+        <div class="container">
+            <h2 class="section-title">Sobre Veterinaria Somosvet</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        En Veterinaria Somosvet creemos que cada mascota merece el mejor cuidado. Con más de 15 años de experiencia, nos hemos convertido en el refugio de confianza para miles de familias de Avellaneda que aman sus mascotas.
+                    </p>
+                    <p class="about-description">
+                        Nuestro equipo de veterinarios profesionales está dedicado a la salud y el bienestar de tus compañeros felinos, caninos y otros animales. Utilizamos tecnología de punta y profundos conocimientos veterinarios para ofrecerte servicios excepcionales.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight">
+                            <span class="highlight-number">15+</span>
+                            <span class="highlight-text">Años de experiencia</span>
+                        </div>
+                        <div class="highlight">
+                            <span class="highlight-number">5000+</span>
+                            <span class="highlight-text">Mascotas atendidas</span>
+                        </div>
+                        <div class="highlight">
+                            <span class="highlight-number">24/7</span>
+                            <span class="highlight-text">Atención de urgencias</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section class="services" id="servicios">
+        <div class="container">
+            <h2 class="section-title">Nuestros Servicios</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🏥</div>
+                    <h3>Consultas</h3>
+                    <p>Revisión completa y diagnóstico de tu mascota con los mejores veterinarios</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🚨</div>
+                    <h3>Urgencias 24 hs</h3>
+                    <p>Atención inmediata para emergencias veterinarias a cualquier hora del día</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔪</div>
+                    <h3>Cirugías</h3>
+                    <p>Procedimientos quirúrgicos con tecnología moderna y cuidados especializados</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💅</div>
+                    <h3>Estética</h3>
+                    <p>Baño, corte de pelo, limpieza de oídos y tratamientos estéticos profesionales</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔬</div>
+                    <h3>Laboratorio</h3>
+                    <p>Análisis de sangre, orina y otros estudios con resultados rápidos y precisos</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📡</div>
+                    <h3>Ecografías</h3>
+                    <p>Diagnóstico por imagen de última generación para tu mascota</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💉</div>
+                    <h3>Vacunación</h3>
+                    <p>Planes de vacunación completos para proteger a tu mascota de enfermedades</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🦷</div>
+                    <h3>Dentística</h3>
+                    <p>Limpieza dental, extracciones y tratamientos odontológicos veterinarios</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section class="testimonials" id="testimonios">
+        <div class="container">
+            <h2 class="section-title">Lo que dicen nuestros clientes</h2>
+            <div class="testimonials-carousel">
+                <div class="testimonials-track">
+                    <div class="testimonial-card">
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">"Excelente atención. El Dr. Carlos fue muy cuidadoso con mi perrito Rocky. Recomiendo 100%."</p>
+                        <p class="testimonial-author">- Laura González</p>
+                        <p class="testimonial-pet">🐕 Rocky (Bulldog)</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">"La mejor veterinaria de Avellaneda. Muy profesionales y mis gatas siempre se sienten cómodo."</p>
+                        <p class="testimonial-author">- María Pérez</p>
+                        <p class="testimonial-pet">🐱 Mía y Luna (Gatos Persa)</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">"Atención 24 hs que salva vidas. Un domingo de madrugada atendieron a mi conejo en urgencias."</p>
+                        <p class="testimonial-author">- Juan Martínez</p>
+                        <p class="testimonial-pet">🐰 Toby (Conejo)</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">"Personal muy amable y cuidadoso. Mi gato salió perfecto del baño y corte."</p>
+                        <p class="testimonial-author">- Andrea López</p>
+                        <p class="testimonial-pet">🐱 Félix (Gato Siberiano)</p>
+                    </div>
+                </div>
+                <button class="carousel-btn carousel-prev" onclick="moveCarousel(-1)">❮</button>
+                <button class="carousel-btn carousel-next" onclick="moveCarousel(1)">❯</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section" id="contacto">
+        <div class="container contact-container">
+            <div class="contact-info-wrapper">
+                <h2 class="section-title">Contacto e Información</h2>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <span class="info-icon">📍</span>
+                        <div>
+                            <h4>Ubicación</h4>
+                            <p>Av. Mitre 1850, Avellaneda<br>Buenos Aires, Argentina</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">📞</span>
+                        <div>
+                            <h4>Teléfono</h4>
+                            <p><a href="tel:+541123456789">+54 11 2345-6789</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">⏰</span>
+                        <div>
+                            <h4>Horarios de atención</h4>
+                            <p>Lunes a Viernes: 8:00 - 19:00<br>Sábados: 9:00 - 14:00<br>Urgencias 24/7</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">💬</span>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <p><a href="https://wa.me/541123456789" target="_blank">Contactanos por WhatsApp</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.9375829999996!2d-58.38033!3d-34.65833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e7a8b8b8b8b9%3A0x8b8b8b8b8b8b8b8b!2sAv.%20Mitre%201850%2C%20Avellaneda%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Veterinaria Somosvet</h4>
+                    <p>Cuidado integral para tu mejor amigo</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Ubicación</h4>
+                    <p>Av. Mitre 1850<br>Avellaneda, Buenos Aires<br>Argentina</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Horarios</h4>
+                    <p>Lunes a Viernes: 8:00 - 19:00<br>Sábados: 9:00 - 14:00<br>Urgencias: 24/7</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Síguenos</h4>
+                    <div class="social-links">
+                        <a href="https://facebook.com" target="_blank" title="Facebook">f</a>
+                        <a href="https://instagram.com" target="_blank" title="Instagram">📷</a>
+                        <a href="https://wa.me/541123456789" target="_blank" title="WhatsApp">💬</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Veterinaria Somosvet. Todos los derechos reservados.</p>
+                <p>Av. Mitre 1850, Avellaneda, Buenos Aires | Teléfono: +54 11 2345-6789</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
