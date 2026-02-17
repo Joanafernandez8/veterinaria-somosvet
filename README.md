@@ -127,7 +127,7 @@ Veterinaria/
 
 Update these sections with actual clinic information:
 
-1. **Phone Number**: Search `541123456789` and replace with clinic's actual phone
+1. **Phone Number**: Update with clinic's actual phone number (currently: +54 11 2623-3510)
 2. **Address**: Update "Av. Mitre 1850, Avellaneda" with actual address
 3. **Hours**: Modify the hours in the About/Contact sections
 4. **Team Members**: Update veterinarian names, credentials, and photos
