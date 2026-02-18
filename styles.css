@@ -449,6 +449,8 @@ a:hover {
     background-color: var(--light-green);
     border-radius: 10px;
     transition: var(--transition);
+    justify-content: center;
+    align-items: center;
 }
 
 .highlight:hover {
@@ -715,14 +717,16 @@ a:hover {
 }
 
 .map-container {
-    margin-top: 30px;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: var(--shadow);
+    display: flex;
+  justify-content: center;
 }
 
 .map-container iframe {
     display: block;
+     width: 100%;
+     max-width: 600px;
+     height: 300px;
+    border: 0;
 }
 
 /* Mobile Contact Section */
